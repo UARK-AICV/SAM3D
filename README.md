@@ -30,7 +30,20 @@ conda activate sam3d
 pip install -r requirements.txt
 ```
 
-The code is implemented based on ```pytorch 2.0.1``` with ```torchvision 0.15.2```. Please follow the instructions from the official PyTorch <a href="https://pytorch.org/get-started/locally/">website</a> to install the Pytorch, Torchvision and CUDA version.
+The code is implemented based on ```pytorch 2.0.1``` with ```torchvision 0.15.2```. Please follow the instructions from the official PyTorch <a href="https://pytorch.org/get-started/locally/">website</a> to install the Pytorch, Torchvision and CUDA versions.
+
+### Training
+
+```
+bash training_scripts/run_training_synapse.sh
+bash training_scripts/run_training_acdc.sh
+bash training_scripts/run_training_lung.sh
+bash training_scripts/run_training_tumor.sh
+```
+
+### Evaluation
+
+
 
 ## Predictions
 <ul>
