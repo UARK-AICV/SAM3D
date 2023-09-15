@@ -13,10 +13,24 @@ Image segmentation is a critical task in medical image analysis, providing valua
 ## Datasets and Trained Models
 <ul>
   <li>To validate the effectiveness of our model, we conduct the experiments benchmark in four datasets: Synapse, ACDC, BRaTs, and Decathlon-Lung. We follow the same dataset preprocessing as in <a href="https://github.com/Amshaker/unetr_plus_plus">UNETR++</a> and <a href="https://github.com/282857341/nnFormer">nnFormer</a>. Please refer to their repositories for more details about downloading and organizing the dataset folders.</li>
-  <li>.</li>
-  <li>.</li>
-  <li>.</li>
+  <li>The Synapse weight can be downloaded at <a href="https://drive.google.com/file/d/1jxWSlK1Zy_gBY_XO3xh6ydaLthqDh5Tm/view?usp=sharing">Google Drive</a>.</li>
+  <li>The ADCD weight can be downloaded at <a href="https://drive.google.com/file/d/1a4fWzwEC9jKBKcZ_kj9wsrtoL8Ha1qpx/view?usp=drive_link">Google Drive</a>.</li>
+  <li>The BraTS weight can be downloaded at <a href="https://drive.google.com/file/d/1jxWSlK1Zy_gBY_XO3xh6ydaLthqDh5Tm/view?usp=drive_link">Google Drive</a>.</li>
+  <li>The Lung weight can be downloaded at <a href="https://drive.google.com/file/d/1jraG6uXrXEUyj-tFOMiEIGoDxDJeTQ_X/view?usp=sharing">Google Drive</a>.</li>
 </ul>
+
+## Usage
+
+### Installation
+
+```
+conda create --name sam3d python=3.8
+conda activate sam3d
+pip install -r requirements.txt
+```
+
+The code is implemented based on ```pytorch 2.0.1``` with ```torchvision 0.15.2```. Please follow the instructions from the official PyTorch <a href="https://pytorch.org/get-started/locally/">website</a> to install the Pytorch, Torchvision and CUDA version.
+
 
 ## Citation
 ```
