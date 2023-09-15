@@ -93,7 +93,7 @@ def main():
                              'Optional. Beta. Use with caution.')
     
     parser.add_argument('--vit_name', type=str, default='vit_b', help='select one vit model for SAM')
-    parser.add_argument('--sam_ckpt', type=str, default="/home/hdhieu/3DSAM-Decoder-1/sam3d/checkpoints/sam_vit_b_01ec64.pth", help='path to pretrained checkpoint of SAM')
+    parser.add_argument('--sam_ckpt', type=str, default="../checkpoints/sam_vit_b_01ec64.pth", help='path to pretrained checkpoint of SAM')
 
     args = parser.parse_args()
 
