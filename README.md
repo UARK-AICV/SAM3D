@@ -4,7 +4,7 @@ Authors: Nhat-Tan Bui, Dinh-Hieu Hoang, Minh-Triet Tran, Ngan Le
 This is the official implementation of <a href="https://arxiv.org/pdf/2309.03493v1.pdf">"SAM3D: Segment Anything Model in Volumetric Medical Images"</a>.
 
 ## Introduction
-<image src="images/overall_architecture.png">
+<image src="images/architecture.png">
 
 Image segmentation is a critical task in medical image analysis, providing valuable information that helps to make an accurate diagnosis. In recent years, deep learning-based automatic image segmentation methods have achieved outstanding results in medical images. In this paper, inspired by the Segment Anything Model (SAM), a foundation model that has received much attention for its impressive accuracy and powerful generalization ability in 2D still image segmentation, we propose a SAM3D that targets at 3D volumetric medical images and utilizes the pre-trained features from the SAM encoder to capture meaningful representations of input images. Different from other existing SAM-based volumetric segmentation methods that perform the segmentation by dividing the volume into a set of 2D slices, our model takes the whole 3D volume image as input and processes it simply and effectively that avoids training a significant number of parameters. Extensive experiments are conducted on multiple medical image datasets to demonstrate that our network attains competitive results compared with other state-of-the-art methods in 3D medical segmentation tasks while being significantly efficient in terms of parameters.
 
