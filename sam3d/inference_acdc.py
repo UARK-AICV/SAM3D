@@ -53,10 +53,9 @@ def hd(pred,gt):
         return 0
 
 def test(fold):
-    path='/home/hdhieu/3DSAM-Decoder-1/output/acdc/post'
-    label_path = '/home/hdhieu/3DSAM-Decoder-1/DATASET_Acdc/sam3d_raw/sam3d_raw_data/Task01_ACDC/labelsTs'
-    pred_path = '/home/hdhieu/3DSAM-Decoder-1/DATASET_Acdc/output_acdc/sam3d/3d_fullres/Task001_ACDC/sam3d_trainer_acdc__sam3d_Plansv2.1/fold_0/testing_best_post_postprocessed/'
-    # pred_path = '/home/hdhieu/3DSAM-Decoder-1/DATASET_Acdc/output_acdc/sam3d/3d_fullres/Task001_ACDC/sam3d_trainer_acdc__sam3d_Plansv2.1/fold_0/validation_raw/'
+    path=''
+    label_path = ''
+    pred_path = ''
     
     label_list = sorted(glob.glob(os.path.join(label_path, '*nii.gz')))
     infer_list = sorted(glob.glob(os.path.join(pred_path, '*nii.gz')))

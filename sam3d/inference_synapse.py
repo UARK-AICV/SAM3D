@@ -33,8 +33,8 @@ def process_label(label):
     return spleen,right_kidney,left_kidney,gallbladder,liver,stomach,aorta,pancreas
 
 def test(fold): 
-    label_path= "/home/hdhieu/3DSAM-Decoder-1/DATASET_Synapse/sam3d_raw/sam3d_raw_data/Task002_Synapse/" # Replace None by full path of "DATASET/unetr_pp_raw/unetr_pp_raw_data/Task002_Synapse/"
-    infer_path = "/home/hdhieu/3DSAM-Decoder-1/DATASET_Synapse/output_synapse/sam3d/3d_fullres/Task002_Synapse/sam3d_trainer_synapse__sam3d_Plansv2.1/fold_0/testing_best_post_postprocessed" # Replace None by full path of "output_synapse"  
+    label_path= "" 
+    infer_path = "" 
     
     label_list=sorted(glob.glob(os.path.join(label_path,'labelsTs','*nii.gz')))
     infer_list=sorted(glob.glob(os.path.join(infer_path,'*nii.gz')))
@@ -59,7 +59,7 @@ def test(fold):
     hd_aorta=[]
     hd_pancreas=[]
     
-    file="/home/hdhieu/3DSAM-Decoder-1/output/synapse/" + 'postprocessed/'+fold
+    file= "" + fold
     if not os.path.exists(file):
         os.makedirs(file)
     fw = open(file+'/dice_pre.txt', 'a')

@@ -39,13 +39,11 @@ def process_label(label):
     return ET,TC,WT,ED,NET
 
 def test(fold):
-    #path='./'
-    
-    path = "/home/hdhieu/3DSAM-Decoder-1/DATASET_Tumor/sam3d_raw/sam3d_raw_data/Task03_tumor/" # Replace None by the full path of : unetr_plus_plus/DATASET_Tumor/unetr_pp_raw/unetr_pp_raw_data/Task03_tumor/"    
+    path = "" 
     
     label_list=sorted(glob.glob(os.path.join(path,'labelsTs','*nii.gz')))
 
-    infer_path = "/home/hdhieu/3DSAM-Decoder-1/DATASET_Tumor/output_tumor/sam3d/3d_fullres/Task003_tumor/sam3d_trainer_tumor__sam3d_Plansv2.1/fold_0/testing_best_postprocessed/" # Replace None by the full path of : unetr_plus_plus/unetr_pp/evaluation/unetr_pp_tumor_checkpoint/"
+    infer_path = "" 
 
     infer_list=sorted(glob.glob(os.path.join(infer_path,'*nii.gz')))
     print("loading success...")
@@ -60,7 +58,8 @@ def test(fold):
     HD_wt=[]
     HD_ed=[]
     HD_net=[]
-    file="/home/hdhieu/3DSAM-Decoder-1/output/tumor/" +fold
+    
+    file= "" + fold
     if not os.path.exists(file):
         os.makedirs(file)
     fw = open(file+'/dice_five.txt', 'w')
@@ -136,8 +135,4 @@ def test(fold):
 
 
 if __name__ == '__main__':
-    # parser = argparse.ArgumentParser()
-    # parser.add_argument("fold", help="fold name")
-    # args = parser.parse_args()
-    # fold=args.fold
     test("0")

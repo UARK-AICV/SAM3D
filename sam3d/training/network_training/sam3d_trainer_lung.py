@@ -60,11 +60,9 @@ class sam3d_trainer_lung(Trainer_lung):
         else:
             Stage = 0
 
-        # self.crop_size = (32,192,192) #self.plans['plans_per_stage'][Stage]['patch_size']
         self.crop_size = [34, 192, 192]
         self.input_channels = self.plans['num_modalities']
         self.num_classes = self.plans['num_classes'] + 1
-        #print("#############classes", self.num_classes)
         self.conv_op = nn.Conv3d
 
         self.deep_supervision = True

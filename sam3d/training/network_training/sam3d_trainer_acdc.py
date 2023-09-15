@@ -278,12 +278,6 @@ class sam3d_trainer_acdc(Trainer_acdc):
         else:
             output = self.network(data)
             # import pdb; pdb.set_trace()
-            # print(output[0].shape)
-            # print(target[0].shape)
-            # print(output[1].shape)
-            # print(target[1].shape)
-            # print(output[2].shape)
-            # print(target[2].shape)
             del data
             l = self.loss(output, target)
 
