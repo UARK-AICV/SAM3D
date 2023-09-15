@@ -180,8 +180,4 @@ def test(fold):
     print('done')
 
 if __name__ == '__main__':
-    # parser = argparse.ArgumentParser()
-    # parser.add_argument("fold", help="fold name")
-    # args = parser.parse_args()
-    # fold=args.fold
     test("0")
