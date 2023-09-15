@@ -31,6 +31,13 @@ pip install -r requirements.txt
 
 The code is implemented based on ```pytorch 2.0.1``` with ```torchvision 0.15.2```. Please follow the instructions from the official PyTorch <a href="https://pytorch.org/get-started/locally/">website</a> to install the Pytorch, Torchvision and CUDA version.
 
+## Predictions
+<ul>
+  <li>The pre-computed maps and scores of the Synapse dataset can be downloaded at <a href="https://drive.google.com/file/d/1Eb2o2b4TGNUyFpvdCQo3RRcxd2vB5J3x/view?usp=sharing">Google Drive</a>.</li>
+  <li>The pre-computed maps and scores of the ACDC dataset can be downloaded at <a href="https://drive.google.com/file/d/19vVWDRnhSGFxFVcIzgF0LyJOyVGOs1UU/view?usp=sharing">Google Drive</a>.</li>
+  <li>The pre-computed maps and scores of the BraTS dataset can be downloaded at <a href="https://drive.google.com/file/d/1tTbhgaBOcQ8Ww_rSCFvOyReDCaUcjue1/view?usp=sharing">Google Drive</a>.</li>
+  <li>The pre-computed maps and scores of the Lung dataset can be downloaded at <a href="https://drive.google.com/file/d/1LqM0ZVwk6RLzqEodVACzTBZUAtNPdFT5/view?usp=sharing">Google Drive</a>.</li>
+</ul>
 
 ## Citation
 ```
