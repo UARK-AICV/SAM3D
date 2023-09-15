@@ -10,6 +10,14 @@ Image segmentation is a critical task in medical image analysis, providing valua
 
 <image src="images/decoder.png">
 
+## Datasets and Trained Models
+<ul>
+  <li>To validate the effectiveness of our model, we conduct the experiments benchmark in four datasets: Synapse, ACDC, BRaTs, and Decathlon-Lung. We follow the same dataset preprocessing as in <a href="https://github.com/Amshaker/unetr_plus_plus">UNETR++</a> and <a href="https://github.com/282857341/nnFormer">nnFormer</a>. Please refer to their repositories for more details about downloading and organizing the dataset folders.</li>
+  <li>.</li>
+  <li>.</li>
+  <li>.</li>
+</ul>
+
 ## Citation
 ```
 @article{sam3d,
