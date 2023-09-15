@@ -4,7 +4,7 @@ Authors: Nhat-Tan Bui, Dinh-Hieu Hoang, Minh-Triet Tran, Ngan Le
 This is the official implementation of <a href="https://arxiv.org/pdf/2309.03493v1.pdf">"SAM3D: Segment Anything Model in Volumetric Medical Images"</a>.
 
 ## Introduction
-
+<image src="images/SAM3D-overall_architecture.pdf">
 
 
 
