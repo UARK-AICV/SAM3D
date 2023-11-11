@@ -2,16 +2,24 @@
 
   <h1 align="center">SAM3D: Segment Anything Model in Volumetric Medical Images </h1>
   <p align="center">
-    <a href=""><strong>Nhat-Tan Bui</strong></a>
+    <a href="https://tanbuinhat.github.io/"><strong>Nhat-Tan Bui</strong></a>
     ·
-    <a href=""><strong>Dinh-Hieu Hoang</strong></a>
+    <a href="https://dblp.org/pid/253/9950.html"><strong>Dinh-Hieu Hoang</strong></a>
     ·
-    <a href=""><strong>Minh-Triet Tran</strong></a>
+    <a href="https://www.fit.hcmus.edu.vn/~tmtriet/"><strong>Minh-Triet Tran</strong></a>
     ·
-    <a href=""><strong>Ngan Le</strong></a>
+    <a href="https://community.wvu.edu/~daadjeroh/"><strong>Donald Adjeroh</strong></a>
+    .
+    <a href="https://vision.csee.wvu.edu/~doretto/"><strong>Gianfranco Doretto</strong></a>
+    .
+    <a href="https://directory.hsc.wvu.edu/Profile/60996"><strong>Brijesh Patel</strong></a>
+    .
+    <a href="https://uamshealth.com/provider/arabinda-k-choudhary/"><strong>Arabinda Choudhary</strong></a>
+    .
+    <a href="https://www.nganle.net/"><strong>Ngan Le</strong></a>
   </p>
 
-  <h4 align="center"><a href="https://arxiv.org/pdf/2309.03493v1.pdf">Paper</a> | <a href="https://arxiv.org/abs/2309.03493">arXiv</a></h4>
+  <h4 align="center"><a href="https://arxiv.org/abs/2309.03493">arXiv</a></h4>
   <div align="center"></div>
 </p>
 
