@@ -1,6 +1,5 @@
+<h1 align="center">SAM3D: Segment Anything Model in Volumetric Medical Images </h1>
 <p align="center">
-
-  <h1 align="center">SAM3D: Segment Anything Model in Volumetric Medical Images </h1>
   <p align="center">
     <a href="https://tanbuinhat.github.io/"><strong>Nhat-Tan Bui</strong></a>
     ·
