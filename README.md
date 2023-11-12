@@ -7,13 +7,15 @@
     ·
     <a href="https://www.fit.hcmus.edu.vn/~tmtriet/"><strong>Minh-Triet Tran</strong></a>
     ·
-    <a href="https://community.wvu.edu/~daadjeroh/"><strong>Donald Adjeroh</strong></a>
-    .
     <a href="https://vision.csee.wvu.edu/~doretto/"><strong>Gianfranco Doretto</strong></a>
+    .
+    <a href="https://community.wvu.edu/~daadjeroh/"><strong>Donald Adjeroh</strong></a>
     .
     <a href="https://directory.hsc.wvu.edu/Profile/60996"><strong>Brijesh Patel</strong></a>
     .
     <a href="https://uamshealth.com/provider/arabinda-k-choudhary/"><strong>Arabinda Choudhary</strong></a>
+    .
+    <a href="https://engineering.uark.edu/directory/index/uid/magda/name/Magda-El-Shenawee/"><strong>Magda El-Shenawee</strong></a>
     .
     <a href="https://www.nganle.net/"><strong>Ngan Le</strong></a>
   </p>
