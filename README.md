@@ -15,8 +15,6 @@
     .
     <a href="https://uamshealth.com/provider/arabinda-k-choudhary/"><strong>Arabinda Choudhary</strong></a>
     .
-    <a href="https://engineering.uark.edu/directory/index/uid/magda/name/Magda-El-Shenawee/"><strong>Magda El-Shenawee</strong></a>
-    .
     <a href="https://www.nganle.net/"><strong>Ngan Le</strong></a>
   </p>
 
