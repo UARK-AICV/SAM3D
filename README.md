@@ -83,7 +83,7 @@ bash evaluation_scripts/run_evaluation_tumor.sh
 ```
 @article{sam3d,
       title={SAM3D: Segment Anything Model in Volumetric Medical Images}, 
-      author={Nhat-Tan Bui and Dinh-Hieu Hoang and Minh-Triet Tran and Ngan Le},
+      author={Nhat-Tan Bui and Dinh-Hieu Hoang and Minh-Triet Tran and Gianfranco Doretto and Donald Adjeroh and Brijesh Patel and Arabinda Choudhary and Ngan Le},
       journal={arXiv:2309.03493},
       year={2023}
 }
