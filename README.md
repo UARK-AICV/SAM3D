@@ -17,10 +17,10 @@
     .
     <a href="https://www.nganle.net/"><strong>Ngan Le</strong></a>
   </p>
-<!---
+
   <h4 align="center"><a href="https://arxiv.org/abs/2309.03493">arXiv</a></h4>
   <div align="center"></div>
--->
+
 </p>
 
 ## Introduction
