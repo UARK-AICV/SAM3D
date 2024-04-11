@@ -1,4 +1,4 @@
-<h1 align="center">SAM3D: Segment Anything Model in Volumetric Medical Images </h1>
+<h1 align="center">SAM3D: Segment Anything Model in Volumetric Medical Images (ISBI 2024)</h1>
 <p align="center">
   <p align="center">
     <a href="https://tanbuinhat.github.io/"><strong>Nhat-Tan Bui</strong></a>
