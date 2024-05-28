@@ -37,7 +37,7 @@ Image segmentation remains a pivotal component in medical image analysis, aiding
   <li>The pre-trained SAM model can be downloaded at its <a href="https://github.com/facebookresearch/segment-anything">original repository</a>. Put the checkpoint in the ./checkpoints folder.</li>
   <li>The Synapse weight can be downloaded at <a href="https://drive.google.com/file/d/1jxWSlK1Zy_gBY_XO3xh6ydaLthqDh5Tm/view?usp=sharing">Google Drive</a>.</li>
   <li>The ADCD weight can be downloaded at <a href="https://drive.google.com/file/d/1a4fWzwEC9jKBKcZ_kj9wsrtoL8Ha1qpx/view?usp=drive_link">Google Drive</a>.</li>
-  <li>The BraTS weight can be downloaded at <a href="https://drive.google.com/file/d/1jxWSlK1Zy_gBY_XO3xh6ydaLthqDh5Tm/view?usp=drive_link">Google Drive</a>.</li>
+  <li>The BraTS weight can be downloaded at <a href="https://drive.google.com/file/d/1ws73ZuxY9fmCcPPE_q9HS4sYHa0symXJ/view?usp=drive_link">Google Drive</a>.</li>
   <li>The Lung weight can be downloaded at <a href="https://drive.google.com/file/d/1jraG6uXrXEUyj-tFOMiEIGoDxDJeTQ_X/view?usp=sharing">Google Drive</a>.</li>
 </ul>
 
